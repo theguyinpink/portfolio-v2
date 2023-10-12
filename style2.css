@@ -197,7 +197,7 @@ body{
         font-size: 13px;
     }
     .image-wrapper img{
-        display: block;
+        display: none;
     }
 }
 
