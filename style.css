@@ -64,6 +64,11 @@ ul.banner{
     
 
 }
+
+.banner-link{
+    padding-right: 0px;
+}
+
 li.banner-link {
     display: inline-block;
     margin-right: 30px; /* Changer margin-left à margin-right */
@@ -134,7 +139,7 @@ button:hover{
 }
 
 .nav-links {
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 body{
@@ -144,6 +149,7 @@ body{
 .links {
     display: flex;
     justify-content: center;
+    margin-top: 0px;
     
 }
 
@@ -243,19 +249,3 @@ body{
         background: #2A272A;
       }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
