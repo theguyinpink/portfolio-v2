@@ -141,6 +141,28 @@ body{
     animation: transitionIn 3s;
 }
 
+.links {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.links a {
+    margin-left: 10px;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 3px;
+    background: #0000008f;
+    box-shadow: 0 5px 15px black;
+}
+
+.links a:hover{
+    background:#2A272A;
+}
+
 @keyframes transitionIn{
     from{
         opacity: 0;
