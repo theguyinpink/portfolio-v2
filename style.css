@@ -62,7 +62,6 @@ ul.banner{
     display: flex;
     list-style: none;
     
-    
 
 }
 li.banner-link {
@@ -160,7 +159,7 @@ body{
     }
 }
 
-@media  screen and (max-width) {
+@media  screen and (max-width: 720px) {
     .logo{
         font-size: 22px;
     }
@@ -180,6 +179,8 @@ body{
         max-width: 400px;
     }
 }
+
+
 
 
 
