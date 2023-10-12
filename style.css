@@ -157,6 +157,27 @@ body{
     .content{
         flex-direction: column;
     }
+        .links {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .links a {
+        flex-direction: column;
+        margin-left: 10px;
+        line-height: 1;
+        font-weight: bold;
+        font-size: 10px;
+        border-radius: 10px;
+        border: 1px solid white;
+        padding: 5px;
+        background: #0000008f;
+        box-shadow: 0 5px 15px black;
+      }
+      
+      .links a:hover {
+        background: #2A272A;
+      }
 }
 
 @media  screen and (max-width: 720px) {
@@ -178,6 +199,27 @@ body{
     .image-wrapper img{
         display: none;
     }
+        .links {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .links a {
+        flex-direction: column;
+        margin-left: 10px;
+        line-height: 1;
+        font-weight: bold;
+        font-size: 10px;
+        border-radius: 10px;
+        border: 1px solid white;
+        padding: 5px;
+        background: #0000008f;
+        box-shadow: 0 5px 15px black;
+      }
+      
+      .links a:hover {
+        background: #2A272A;
+      }
 }
 
 
